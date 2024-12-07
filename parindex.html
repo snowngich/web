@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment: CSS Basics and Styling</title>
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #333;
+        }
+
+        .section {
+            background-color: #e8f4fa;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        #unique-element {
+            border: 2px solid #3498db;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 30px auto;
+            width: 300px;
+            border: 1px solid #bdc3c7;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card h1 {
+            font-size: 24px;
+            color: #2c3e50;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Part 1: CSS Basics -->
+    <h1>Welcome to CSS Basics</h1>
+
+    <div class="section">
+        <p>This section is styled using a class selector.</p>
+    </div>
+
+    <div id="unique-element">
+        <p>This element has a unique ID with a border.</p>
+    </div>
+
+    <!-- Part 2: Inline CSS -->
+    <p style="color: red; font-size: 18px;">This text is styled using inline CSS.</p>
+
+    <!-- Part 3: Card Component -->
+    <div class="card">
+        <h1>Card Title</h1>
+        <p>This is a description inside the card component. It demonstrates padding, margin, and other basic CSS properties.</p>
+    </div>
+
+</body>
+</html>
+
